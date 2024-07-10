@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <h1>CountDown Timer</h1>
+        <div class="labels">
+            <p>Hours</p>
+            <p>Minutes</p>
+            <p>Second</p>
+        </div>
+
+        <div class="inp">
+            <input 
+            type="number"
+            maxlength="2"
+            oninput="this.value=this.value.slice(0,maxLength)"
+            placeholder="00"
+            class="hour"/>
+
+            <input 
+            type="number"
+            maxlength="2"
+            oninput="this.value=this.value.slice(0,maxLength)"
+            placeholder="00"
+            class="min"/>
+
+            <input 
+            type="number"
+            maxlength="2"
+            oninput="this.value=this.value.slice(0,maxLength)"
+            placeholder="00"
+            class="sec"/>
+        </div>
+
+        <div class="btn">
+            <button class="start">Start</button>
+            <button class="stop">Stop</button>
+            <button class="reset">Reset</button>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="/src/style.css">
+    <script src="src/index.js"></script>
+</body>
+</html>
