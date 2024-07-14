@@ -1,0 +1,38 @@
+.inputComp{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.inputComp>label,input{
+  padding: 4px;
+}
+
+.sliderOutput{
+  display: flex;
+ justify-content: space-between;
+}
+
+.tenureConatiner{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.tenure{
+  background-color: rgb(95, 110, 241);
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+.tenureConatiner>span:hover{
+  background-color: rgb(2, 2, 2);
+}
+.selected{
+  background-color: rgb(2, 2, 2);
+}
