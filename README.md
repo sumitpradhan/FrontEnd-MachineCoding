@@ -1,1 +1,1 @@
-These Are some mini tasks which I have practiced
+These Are some features that I have practiced
