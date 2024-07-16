@@ -1,1 +1,1 @@
-These Are some features that I have practiced
+These are some features that I have practiced
